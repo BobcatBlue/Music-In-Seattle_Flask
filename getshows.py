@@ -4,7 +4,6 @@ import os
 
 
 API_KEY = os.getenv("show_data_api")
-# API_KEY = ""
 URL_1 = os.getenv("URL_1")
 URL_2 = os.getenv("URL_2")
 
