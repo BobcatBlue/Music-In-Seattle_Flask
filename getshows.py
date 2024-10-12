@@ -3,8 +3,8 @@ from datetime import datetime
 import os
 
 
-# API_KEY = os.getenv("show_data_api")a
-API_KEY = "G1pT0GXSedRJ0nmA3Gjx7qfGteoQNQRW"
+API_KEY = os.getenv("show_data_api")a
+# API_KEY = ""
 URL_1 = os.getenv("URL_1")
 URL_2 = os.getenv("URL_2")
 
