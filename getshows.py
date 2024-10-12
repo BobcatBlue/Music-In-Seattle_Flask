@@ -3,7 +3,8 @@ from datetime import datetime
 import os
 
 
-API_KEY = os.getenv("show_data_api")
+# API_KEY = os.getenv("show_data_api")a
+API_KEY = "G1pT0GXSedRJ0nmA3Gjx7qfGteoQNQRW"
 URL_1 = os.getenv("URL_1")
 URL_2 = os.getenv("URL_2")
 
@@ -14,7 +15,6 @@ def get_shows(venue_name, venueId):
     response = requests.get(url)
     show_data = response.json()
     try:
-
         # Find the next show/earliest date in the list
         all_events = show_data.get('_embedded').get('events')
         list_length = len(all_events)
