@@ -1,0 +1,4 @@
+band:
+    css: 'div.event-list-item:nth-of-type(1) a#2-9.event-list-item-headliner'
+    xpath: null
+    type: Text
